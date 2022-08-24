@@ -2,7 +2,11 @@
   <img src="https://user-images.githubusercontent.com/6887819/186343424-9262d753-1b96-410f-bd3d-5d3b3eea4518.svg" \>
   <img src="https://user-images.githubusercontent.com/6887819/186343452-a07e99be-9483-40ab-bf2a-5db76404a4b1.svg" \>
 </div>
-Studystorm est la meilleure plateforme d'apprentissage en ligne pour les étudiants.  
+
+[Studystorm](https://studystorm.net) est la meilleure plateforme d'apprentissage en ligne pour les étudiants.
+
+[![](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 ## Contexte
 Study storm est projet de groupe, OpenSource, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD (oui c'est très chiant d'avoir des cours pendant les vacances).
