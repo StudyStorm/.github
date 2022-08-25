@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 ## Contexte
-StudyStorm est projet de groupe, OpenSource, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD (oui c'est très chiant d'avoir des cours pendant les vacances).
+StudyStorm est projet de groupe, OpenSource, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD.
 
 ## Auteurs
 
