@@ -9,14 +9,14 @@
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 ## Contexte
-StudyStorm est projet de groupe, OpenSource, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD.
+StudyStorm est un projet de groupe, open source, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD.
 
 ## Auteurs
 
-- Bijelic Alen
-- Lazar Pavicevic
+- Alen Bijelic
 - Nicolas Crausaz
 - Jonathan Friedli
+- Lazar Pavicevic
 - Maxime Scharwath
 
 ## Description du projet
