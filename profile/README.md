@@ -8,6 +8,13 @@
 [![](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
+[![[Backend] Unit & Component tests](https://github.com/StudyStorm/api-backend/actions/workflows/test.yml/badge.svg)](https://github.com/StudyStorm/api-backend/actions/workflows/test.yml)
+[![[Frontend] Unit & Component tests](https://github.com/StudyStorm/application/actions/workflows/test.yml/badge.svg)](https://github.com/StudyStorm/application/actions/workflows/test.yml)
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=935ca50df3d4&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+
+
 ## Contexte
 StudyStorm est un projet de groupe, open source, réalisé dans le cadre du cours PDG du semestre d'été de la HEIG-VD.
 
