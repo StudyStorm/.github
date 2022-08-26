@@ -27,8 +27,11 @@ StudyStorm est un projet de groupe, open source, réalisé dans le cadre du cour
 - Maxime Scharwath
 
 ## Description du projet
-L’application StudyStorm permet aux utilisateurs de créer des collections de cartes de révisions et de les partager. Le créateur d’une salle de classe peut partager ses collections à tout le monde ou rendre la salle de classe privée, en invitant uniquement les utilisateurs qu’il souhaite, à rejoindre la salle de classe.
+### Conçu pour les étudiants, pensé par des étudiants
+L’application StudyStorm permet aux utilisateurs de créer des collections de cartes de révision et de les partager avec d’autres utilisateurs de la plateforme. 
 
-L'organisation des collections est semblable à un système de dossier. Cela permet de regrouper les cartes par sujet, chapitre, unité de cours, etc… La communauté peut évaluer le contenu qu’il a apprécié ou pas. Les collections avec le plus de votes positifs seront affichées sur la page d’accueil.
+Vous souhaitez contribuer au savoir commun ? Créez une salle de classe !
+Le créateur d’une salle de classe peut partager ses collections à tout le monde ou rendre la salle de classe privée, en invitant uniquement les utilisateurs qu’il souhaite, à rejoindre la salle de classe. Organisez votre salle de classe d’une manière semblable à un système de dossier afin de regrouper les cartes par sujet, chapitre, unité de cours, etc…
 
-Les cartes étant réalisées par des personnes, il est possible qu’il y ait des erreurs dans la réponse d’une carte, ou qu’il y ait une réponse plus pertinente. Les utilisateurs ont la possibilité de signaler une carte en proposant une meilleure réponse. C’est ensuite de la responsabilité du créateur de la carte d’appliquer le changement.
+La communauté peut évaluer le contenu qu’elle a apprécié ou pas. Les collections avec le plus de votes positifs sont mises en avant sur la page d’accueil. Les cartes étant réalisées par des personnes, il est possible qu’il y ait des erreurs dans la réponse d’une carte, ou qu’il y ait une réponse plus pertinente. Les utilisateurs ont la possibilité de signaler une carte en proposant une meilleure réponse. C’est ensuite de la responsabilité du créateur de la carte d’appliquer le changement.
+
