@@ -35,3 +35,38 @@ Le créateur d’une salle de classe peut partager ses collections à tout le mo
 
 La communauté peut évaluer le contenu qu’elle a apprécié ou pas. Les collections avec le plus de votes positifs sont mises en avant sur la page d’accueil. Les cartes étant réalisées par des personnes, il est possible qu’il y ait des erreurs dans la réponse d’une carte, ou qu’il y ait une réponse plus pertinente. Les utilisateurs ont la possibilité de signaler une carte en proposant une meilleure réponse. C’est ensuite de la responsabilité du créateur de la carte d’appliquer le changement.
 
+## Comment lancer le projet en local
+### Frontend
+Les préréquis et instructions pour lancer la partie frontend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/application#readme).
+
+### Backend
+Les préréquis et instructions pour lancer la partie backend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/api-backend#readme).
+
+### Base de données
+Pour lancer la base de donnée vous aurez uniquement besoin de [Docker](https://docs.docker.com/engine/install/).  
+Une fois docker installé, vous pouvez lancer la base de donnée en exécutant la commande suivante:
+```bash
+docker run --name sql-studystorm -p 5432:5432 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password123 -e POSTGRES_MULTIPLE_DATABASES=studystorm,studystorm_test gradescope/postgresql-multiple-databases:14.4
+```
+
+> **Warning**  
+> Si vous avez déjà une base de donnée en local sur le port 5432, vous devrez changer le port (celui à droite des " : " ) dans la commande ci-dessus.
+
+## Contribuer au projet
+ Afin de contribuer à ce projet, il vous suffit de clone le repository et de créer une nouvelle branche. Dès votre premier commit, il faut créer une Pull Request en mode "Draft". Ensuite, à chaque nouveau commit, une action github va s'occuper de lancer les tests unitaires et de vérifier que le code est bien formaté. 
+
+ Chaque commit aura la forme suivante : Un préfixe, puis : et enfin un message rédigé en anglais.  
+  Les préfixes sont les suivants : 
+ * feat: pour une nouvelle fonctionnalité
+ * fix: pour une correction de bug
+ * docs: pour une modification de la documentation
+ * refactor: pour une modification de code qui n'ajoute pas de fonctionnalité ni de bug
+ * chore: pour une modification de configuration.
+
+ Exemple de commit : ```feat: add register page for new users```
+
+ Une fois la PR prête à être mergée, vous pouvez la mettre en mode "Ready for review" et un autre membres de l'équipe va s'occuper de la review. Si tout est bon, la PR sera mergée dans la branche dev et votre contribution sera ajoutée au projet. Vous pourrez ensuite supprimer votre branche.
+
+ ## Déployer une fonctionnalité
+Afin de déployer une fonctionnalité en production, il suffit de merge la branche dev (après s'être assuré qu'elle ne contient plus aucun bug et passe tous les tests) dans la branche main. DigitalOcean, qui watch notre branche main, va alors se charger de déployer la nouvelle version de l'application. Cela peut prendre entre 5 et 10 minutes.  
+Vous pourrez ensuite voir vos nouvelles fonctionnalité directement sur le site [https://studystorm.net/](https://studystorm.net/).
