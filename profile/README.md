@@ -48,6 +48,7 @@ Une fois docker installé, vous pouvez lancer la base de donnée en exécutant l
 ```bash
 docker run --name sql-studystorm -p 5432:5432 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password123 -e POSTGRES_MULTIPLE_DATABASES=studystorm,studystorm_test gradescope/postgresql-multiple-databases:14.4
 ```
+Cela aura pour effet de créer un container avec une PostgresSQL 14.4, avec deux bases de données: `studystorm` et `studystorm_test`. Nous pourrons ensuite communiquer avec elles via le port 5432.
 
 > **Warning**  
 > Si vous avez déjà une base de donnée en local sur le port 5432, vous devrez changer le port (celui à droite des " : " ) dans la commande ci-dessus.
