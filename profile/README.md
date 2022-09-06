@@ -53,6 +53,15 @@ Cela aura pour effet de créer un container avec une PostgresSQL 14.4, avec deux
 > **Warning**  
 > Si vous avez déjà une base de donnée en local sur le port 5432, vous devrez changer le port (celui à droite des " : " ) dans la commande ci-dessus.
 
+### Minio
+TODO
+
+### Mailgun 
+TODO
+
+### Supabase
+TODO
+
 ## Contribuer au projet
  Afin de contribuer à ce projet, il vous suffit de clone le repository et de créer une nouvelle branche. Dès votre premier commit, il faut créer une Pull Request en mode "Draft". Ensuite, à chaque nouveau commit, une action github va s'occuper de lancer les tests unitaires et de vérifier que le code est bien formaté. 
 
