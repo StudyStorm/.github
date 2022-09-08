@@ -26,6 +26,10 @@ StudyStorm est un projet de groupe, open source, réalisé dans le cadre du cour
 - Lazar Pavicevic
 - Maxime Scharwath
 
+## Trailer
+
+[Cliquez-ici pour voir le trailer !](https://www.youtube.com/watch?v=6uQC1ZmN5mw)
+
 ## Description du projet
 ### Conçu pour les étudiants, pensé par des étudiants
 L’application StudyStorm permet aux utilisateurs de créer des collections de cartes de révision et de les partager avec d’autres utilisateurs de la plateforme. 
