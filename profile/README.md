@@ -54,15 +54,6 @@ Les préréquis et instructions pour lancer la partie frontend du projet sont da
 ### Backend
 Les préréquis et instructions pour lancer la partie backend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/api-backend#readme).
 
-### Minio
-TODO
-
-### Mailgun 
-TODO
-
-### Supabase
-TODO
-
 ## Contribuer au projet
  Afin de contribuer à ce projet, il vous suffit de clone le repository et de créer une nouvelle branche. Dès votre premier commit, il faut créer une Pull Request en mode "Draft". Ensuite, à chaque nouveau commit, une action github va s'occuper de lancer les tests unitaires et de vérifier que le code est bien formaté. 
 
