@@ -36,11 +36,6 @@ Le créateur d’une salle de classe peut partager ses collections à tout le mo
 La communauté peut évaluer le contenu qu’elle a apprécié ou pas. Les collections avec le plus de votes positifs sont mises en avant sur la page d’accueil. Les cartes étant réalisées par des personnes, il est possible qu’il y ait des erreurs dans la réponse d’une carte, ou qu’il y ait une réponse plus pertinente. Les utilisateurs ont la possibilité de signaler une carte en proposant une meilleure réponse. C’est ensuite de la responsabilité du créateur de la carte d’appliquer le changement.
 
 ## Comment lancer le projet en local
-### Frontend
-Les préréquis et instructions pour lancer la partie frontend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/application#readme).
-
-### Backend
-Les préréquis et instructions pour lancer la partie backend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/api-backend#readme).
 
 ### Base de données
 Pour lancer la base de donnée vous aurez uniquement besoin de [Docker](https://docs.docker.com/engine/install/).  
@@ -52,6 +47,12 @@ Cela aura pour effet de créer un container avec une PostgresSQL 14.4, avec deux
 
 > **Warning**  
 > Si vous avez déjà une base de donnée en local sur le port 5432, vous devrez changer le port (celui à droite des " : " ) dans la commande ci-dessus.
+
+### Frontend
+Les préréquis et instructions pour lancer la partie frontend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/application#readme).
+
+### Backend
+Les préréquis et instructions pour lancer la partie backend du projet sont dans la doc du repository, disponible [ici](https://github.com/StudyStorm/api-backend#readme).
 
 ### Minio
 TODO
